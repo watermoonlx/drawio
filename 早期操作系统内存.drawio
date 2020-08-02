@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2020-08-02T07:12:04.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" version="13.4.9" etag="zRKR422YYYkp_-UfFlk8" type="github"><diagram id="jz0oRWxe8iE52sD-vSCA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-02T07:33:15.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="tW7_aGdEbZR3x8IMt9-G" version="13.4.9" type="github">
+  <diagram id="jz0oRWxe8iE52sD-vSCA" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9pgb4h2yoWAqPFXj48wv-3" value="操作系统&lt;br style=&quot;font-size: 14px;&quot;&gt;（代码、数据等）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#666666;fontColor=#333333;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pgb4h2yoWAqPFXj48wv-4" value="当前程序&lt;br&gt;（代码、数据等）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9pgb4h2yoWAqPFXj48wv-5" value="0KB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9pgb4h2yoWAqPFXj48wv-6" value="64KB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9pgb4h2yoWAqPFXj48wv-7" value="max" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
