@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-06T07:02:24.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="35xq8B5HUzaYrxDTWMj9" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-06T07:02:49.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="ruA1YBJIrIspl-FJ5Y5D" version="13.5.8" type="github">
   <diagram id="Lsx0iEb3Wfj5V0gcPJfd" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,7 +118,7 @@
         <mxCell id="0SaOvBT2-kmUVJj6ePoo-97" value="虚拟页号（VPN）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="580" y="190" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0SaOvBT2-kmUVJj6ePoo-98" value="物理页帧（PFN）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="0SaOvBT2-kmUVJj6ePoo-98" value="页内偏移（offset）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="900" y="190" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
