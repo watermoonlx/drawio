@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T07:05:32.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="L0ODIE8_hF2RyBI9_ejA" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T07:13:04.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="bb3oIqXehH0iHpZodV5v" version="13.6.2" type="github">
   <diagram id="o_NL61afROuFLl70s8G4" name="Page-1">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zePSdAftIlaU02tllaVw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry y="270" width="620" height="200" as="geometry" />
+          <mxGeometry y="310" width="620" height="200" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry y="150" width="620" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry y="20" width="620" height="130" as="geometry" />
+          <mxGeometry y="-20" width="620" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-4" value="web.xml" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="200" y="180" width="120" height="60" as="geometry" />
@@ -23,34 +23,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-7" value="XML" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="zePSdAftIlaU02tllaVw-9" target="zePSdAftIlaU02tllaVw-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-9" value="Java Config类" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="370" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-10" value="自动发现、自动装配" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="274" y="390" width="140" height="60" as="geometry" />
+          <mxGeometry x="274" y="430" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-11" value="Tomcat配置（server.xml等）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="200" y="55" width="130" height="60" as="geometry" />
+          <mxGeometry x="200" y="15" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-12" value="配置Tomcat本身" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry y="75" width="120" height="20" as="geometry" />
+          <mxGeometry y="35" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-13" value="针对特定Web应用，注册&lt;br&gt;Servlet、Filter、Listener&lt;br&gt;等组件。同时需要以参数的&lt;br&gt;形式指定应用上下文类型及&lt;br&gt;其Bean配置来源。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="10" y="165" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-14" value="注册Bean及其依赖关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="10" y="360" width="160" height="20" as="geometry" />
+          <mxGeometry x="10" y="400" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-15" value="&lt;font style=&quot;font-size: 12px&quot;&gt;开启&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="370" width="40" height="20" as="geometry" />
+          <mxGeometry x="250" y="410" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-16" value="&lt;font style=&quot;font-size: 12px&quot;&gt;开启&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="400" y="370" width="40" height="20" as="geometry" />
+          <mxGeometry x="400" y="410" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zePSdAftIlaU02tllaVw-19" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.194;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.194;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="93.27999999999997" y="110" as="sourcePoint" />
+            <mxPoint x="93.27999999999997" y="148.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zePSdAftIlaU02tllaVw-20" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.194;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.194;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="96.27999999999997" y="271" as="sourcePoint" />
+            <mxPoint x="96.27999999999997" y="309.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zePSdAftIlaU02tllaVw-21" value="Tomcat启动Web应用时读取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zePSdAftIlaU02tllaVw-22" value="应用上下文在初始化时读取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=2;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="109" y="280" width="170" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
