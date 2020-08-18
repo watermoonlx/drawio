@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T06:58:32.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="Vj2vSAsJpCBH8B58-LuH" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T07:05:32.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="L0ODIE8_hF2RyBI9_ejA" version="13.6.2" type="github">
   <diagram id="o_NL61afROuFLl70s8G4" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,8 +40,8 @@
         <mxCell id="zePSdAftIlaU02tllaVw-12" value="配置Tomcat本身" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="75" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zePSdAftIlaU02tllaVw-13" value="针对特定Web应用，注册&lt;br&gt;Servlet、Filter、Listener&lt;br&gt;等组件。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="10" y="180" width="180" height="60" as="geometry" />
+        <mxCell id="zePSdAftIlaU02tllaVw-13" value="针对特定Web应用，注册&lt;br&gt;Servlet、Filter、Listener&lt;br&gt;等组件。同时需要以参数的&lt;br&gt;形式指定应用上下文类型及&lt;br&gt;其Bean配置来源。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="165" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zePSdAftIlaU02tllaVw-14" value="注册Bean及其依赖关系" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="10" y="360" width="160" height="20" as="geometry" />
