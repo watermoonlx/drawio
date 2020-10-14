@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T03:08:43.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="osZBE-d8qJIYiPimKTd7" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-14T03:10:22.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="vNUFcEdKzVxFEHMKGlyM" version="13.7.9" type="github">
   <diagram id="Vrz_hr3L59zKmZCCV_Sv" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
         <mxCell id="vwfbR6zJHwihDpaWRu93-27" value="&lt;font style=&quot;font-size: 12px&quot;&gt;MQ自身的可靠性&lt;br&gt;如何确保消息不丢？&lt;br&gt;1. 开启持久化。&lt;br&gt;2. 确保Queue足够大。&lt;br&gt;3. 极端情况下，提供死信队列，处理溢出消息。&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="220" y="430" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="vwfbR6zJHwihDpaWRu93-28" value="&lt;font style=&quot;font-size: 12px&quot;&gt;生产者端可靠性&lt;br&gt;如何确保消息一定发送到MQ？&lt;br&gt;1. RabbitMQ提供同步确认（事务）和异步确认（回调）两种机制。同步确认更简单，但吞吐量较低。我们选择异步确认，将发送的消息保存到数据库，然后依赖创建成功的回调，来确认发送成功。注意，需要先写数据库，此时状态为Not Sent，成功之后再发MQ，发送完成后将状态改为Sent（此时不可再抛出异常）。类似于MySQL的Redo log的做法。后台Task将确保消息一定发送。&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;dashed=1;align=left;" vertex="1" parent="1">
+        <mxCell id="vwfbR6zJHwihDpaWRu93-28" value="&lt;font style=&quot;font-size: 12px&quot;&gt;生产者端可靠性&lt;br&gt;如何确保消息一定发送到MQ？&lt;br&gt;1. RabbitMQ提供同步确认（事务）和异步确认（回调）两种机制。同步确认更简单，但吞吐量较低。我们选择异步确认，将发送的消息保存到数据库，然后依赖创建成功的回调，来确认发送成功。注意，需要先写数据库，此时状态为Not Sent，成功之后再发MQ，发送完成后将状态改为Sent（第一次写完数据库后不可再抛出异常）。类似于MySQL的Redo log的做法。后台Task将确保消息一定发送。&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;dashed=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="25" y="570" width="485" height="150" as="geometry" />
         </mxCell>
         <mxCell id="vwfbR6zJHwihDpaWRu93-30" value="" style="endArrow=none;html=1;fontSize=12;dashed=1;" edge="1" parent="1">
