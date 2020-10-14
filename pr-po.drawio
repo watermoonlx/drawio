@@ -1,1 +1,105 @@
-<mxfile host="app.diagrams.net" modified="2020-10-14T02:31:49.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.7.9" etag="zQRZcFsOiDKpUrXZiob_" type="github"><diagram id="Vrz_hr3L59zKmZCCV_Sv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-14T02:55:18.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="sIEmOwvjlhHCp6Yih-If" version="13.7.9" type="github">
+  <diagram id="Vrz_hr3L59zKmZCCV_Sv" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vwfbR6zJHwihDpaWRu93-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-1" target="vwfbR6zJHwihDpaWRu93-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-1" target="vwfbR6zJHwihDpaWRu93-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-1" target="vwfbR6zJHwihDpaWRu93-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-1" value="PR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-2" value="PO" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-6" value="&lt;font style=&quot;font-size: 12px&quot;&gt;同步调用存在的问题：&lt;br&gt;1. 性能差；&lt;br&gt;2. 当出现部分调用失败时，一致性难以保证。&lt;br&gt;3. 调用超时时出现的三态问题难以解决。&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="60" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-7" target="vwfbR6zJHwihDpaWRu93-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-7" target="vwfbR6zJHwihDpaWRu93-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-7" value="PR" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-8" target="vwfbR6zJHwihDpaWRu93-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-8" target="vwfbR6zJHwihDpaWRu93-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="210" />
+              <mxPoint x="130" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-8" value="PO" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-9" target="vwfbR6zJHwihDpaWRu93-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-9" value="MQ" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-12" target="vwfbR6zJHwihDpaWRu93-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-12" value="MQ" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-15" value="MongoDB/MySQL" style="shape=datastore;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="25" y="390" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="vwfbR6zJHwihDpaWRu93-17" target="vwfbR6zJHwihDpaWRu93-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-17" value="对账Task" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="55" y="490" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-19" value="&lt;font style=&quot;font-size: 12px&quot;&gt;引入RabbitMQ解耦两个服务，优点：&lt;br&gt;1. 将同步处理异步化，提高前台返回效率。&lt;br&gt;2. 通过RabbitMQ保证消息的可靠到达。&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="220" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-21" value="1.同步获取PO Number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-22" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="175" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-23" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-24" value="2,3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-25" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="440" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-26" value="&lt;font style=&quot;font-size: 12px&quot;&gt;消费端可靠性&lt;br&gt;通过MQ自动重试机制，来确保PO一定创建（至少消费一次）。其中涉及以下问题：&lt;br&gt;1. MQ要开启消费者确认（ACK），不可自动确认。&lt;br&gt;2. 要控制MQ发送频率，避免压垮消费者。这可以通过Qos机制来实现。&lt;br&gt;3. 保证PO不会重复创建。这需要每个PO提前拿到PO Number，然后由消费者来确保其唯一性。&lt;br&gt;4. MQ延迟重试。这依赖于死信队列构造延迟队列。&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="541" y="340" width="369" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-27" value="&lt;font style=&quot;font-size: 12px&quot;&gt;MQ自身的可靠性&lt;br&gt;如何确保消息不丢？&lt;br&gt;1. 开启持久化。&lt;br&gt;2. 确保Queue足够大。&lt;br&gt;3. 极端情况下，提供死信队列，处理溢出消息。&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-28" value="&lt;font style=&quot;font-size: 12px&quot;&gt;生产者端可靠性&lt;br&gt;如何确保消息一定发送到MQ？&lt;br&gt;1. RabbitMQ提供同步确认（事务）和异步确认（回调）两种机制。同步确认更简单，但吞吐量较低。我们选择异步确认，将发送的消息保存到数据库，然后依赖创建成功的回调，来确认发送成功。&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="25" y="570" width="365" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vwfbR6zJHwihDpaWRu93-30" value="" style="endArrow=none;html=1;fontSize=12;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="170" as="sourcePoint" />
+            <mxPoint x="892.3999633789062" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
