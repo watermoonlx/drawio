@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T14:20:43.762Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.0.1" etag="Vgkb7XhlrzUcgXBt3ahj" type="github"><diagram id="5H4dI7PEearqRlF0eSpC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-04T14:36:46.593Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qs8kArKS1UPPq6_-IPWK" version="14.0.1" type="github">
+  <diagram id="5H4dI7PEearqRlF0eSpC" name="Page-1">
+    <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xwZ62APz7W_3eK_Ymizy-1" target="xwZ62APz7W_3eK_Ymizy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;用户&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="179" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-2" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.chat_room;" vertex="1" parent="1">
+          <mxGeometry x="310" y="138" width="110" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xwZ62APz7W_3eK_Ymizy-4" target="xwZ62APz7W_3eK_Ymizy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/top-search-7/128/_android_logo_robot_interface_media_social_-128.png" vertex="1" parent="1">
+          <mxGeometry x="341" y="30" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xwZ62APz7W_3eK_Ymizy-6" target="xwZ62APz7W_3eK_Ymizy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;" edge="1" parent="1" source="xwZ62APz7W_3eK_Ymizy-6" target="xwZ62APz7W_3eK_Ymizy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;值班同学&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="530" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-7" value="答疑机器人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="44" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-10" value="答疑群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="335" y="242" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;提问&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-12" value="依靠关键字触发自动回答" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="360" y="95" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-13" value="人工回答" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-14" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.chat_room;" vertex="1" parent="1">
+          <mxGeometry x="690" y="138" width="110" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-15" value="内部答疑群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="242" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xwZ62APz7W_3eK_Ymizy-17" value="不会回答，摇人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
