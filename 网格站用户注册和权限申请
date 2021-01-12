@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T07:43:20.420Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="14.1.8" etag="gkP9mTMsNWVKvwtg8gz6" type="github"><diagram id="T5o6zDfPmYjZ6rlYYtFZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-12T08:02:41.240Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="IKAajUeRTKUnG9Uf1fR0" version="14.1.8" type="github">
+  <diagram id="T5o6zDfPmYjZ6rlYYtFZ" name="Page-1">
+    <mxGraphModel dx="1613" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="840" y="150" width="160" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="640" y="150" width="200" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="160" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-1" value="BPM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-2" value="GMS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-3" value="UPM" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-4" value="VRP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="840" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="200" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="160" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="fBC-P_e51V6AhkyTNq2L-8" target="fBC-P_e51V6AhkyTNq2L-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-8" value="填写用户信息，提交申请" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="165" y="180" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="fBC-P_e51V6AhkyTNq2L-9" target="fBC-P_e51V6AhkyTNq2L-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-9" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="fBC-P_e51V6AhkyTNq2L-11" target="fBC-P_e51V6AhkyTNq2L-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-11" value="创建账号" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="345" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-13" value="回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-14" value="SSO" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-16" value="创建账号" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="505" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="fBC-P_e51V6AhkyTNq2L-20" target="fBC-P_e51V6AhkyTNq2L-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-20" value="运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="fBC-P_e51V6AhkyTNq2L-21" target="fBC-P_e51V6AhkyTNq2L-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-21" value="填写用户和对应网格站信息，提交申请" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="155" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="fBC-P_e51V6AhkyTNq2L-23" target="fBC-P_e51V6AhkyTNq2L-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-23" value="管理人员审批" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="165" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-25" value="新用户注册流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="200" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-26" value="权限申请流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="380" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="fBC-P_e51V6AhkyTNq2L-27" target="fBC-P_e51V6AhkyTNq2L-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="fBC-P_e51V6AhkyTNq2L-27" target="fBC-P_e51V6AhkyTNq2L-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-27" value="授权" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-29" value="回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-32" value="&lt;font style=&quot;font-size: 12px&quot;&gt;1.将用户添加到XMS APP中。&lt;br&gt;2.给用户添加“网格仓运营人员”的角色。&lt;br&gt;3.给用户添加网格站对应的标志位。&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="653.13" y="340" width="173.75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fBC-P_e51V6AhkyTNq2L-35" value="给用户添加排线权限" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="865" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
