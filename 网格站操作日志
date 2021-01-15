@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T02:49:15.415Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="rraesGm2Ow5G_MX05TYz" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T02:50:38.811Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="JkXAw1hncNSlWWJzCk3F" version="14.1.9" type="github">
   <diagram id="neceHJWbjMO86njDUX3T" name="Page-1">
     <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="qPzkCRFrO4MSjnSSg97c-15" value="修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="530" y="140" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="qPzkCRFrO4MSjnSSg97c-17" value="主动记录事件，不包含数据变化信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="qPzkCRFrO4MSjnSSg97c-17" value="记录业务日志，不包含数据变化信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="460" y="250" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qPzkCRFrO4MSjnSSg97c-21" value="binlog" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=12;size=14;" vertex="1" parent="1">
@@ -76,6 +76,9 @@
         </mxCell>
         <mxCell id="qPzkCRFrO4MSjnSSg97c-28" value="消费者：监听目标表的数据变更，将数据变更细节写入事件日志表。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="1">
           <mxGeometry x="300" y="350" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="qPzkCRFrO4MSjnSSg97c-31" value="记录数据变更日志，即数据变化信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="420" y="310" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
