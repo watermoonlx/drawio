@@ -1,1 +1,110 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T08:28:10.733Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" version="14.2.9" etag="fcTkuMRABSlZxGpryqzy" type="github"><diagram id="go5G24Da45VpaL-qcyb9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-08T09:18:29.272Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="i9rR1-ADpNbm0M0lJ6eC" version="14.2.9" type="github">
+  <diagram id="go5G24Da45VpaL-qcyb9" name="Page-1">
+    <mxGraphModel dx="786" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WW2i123roZljfawLRw-2-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="880" y="10" width="390" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="500" y="10" width="380" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="10" width="360" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-1" target="WW2i123roZljfawLRw-2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-1" value="开启事务&lt;br&gt;更新river_fdc_bill_rule表中记录：&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;status：审核通过。&lt;/li&gt;&lt;li style=&quot;font-size: 14px&quot;&gt;sync_status：同步中。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;提交事务。&lt;/div&gt;" style="rounded=0;align=left;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="216.25" y="130" width="237.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-2" target="WW2i123roZljfawLRw-2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-2" target="WW2i123roZljfawLRw-2-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="330" />
+              <mxPoint x="160" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-2" value="同步调用结算API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-4" target="WW2i123roZljfawLRw-2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-4" value="&lt;span style=&quot;font-size: 14px&quot;&gt;开启事务&lt;br&gt;&lt;div&gt;更新river_fdc_bill_rule表中ruleId相同、version相同的记录：&lt;/div&gt;&lt;/span&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;若是新增，需要更新RuleId。&lt;/li&gt;&lt;li&gt;status：审核通过。&lt;/li&gt;&lt;li&gt;sync_status：同步成功。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;提交事务。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="191.25" y="420" width="287.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-6" value="&lt;font style=&quot;font-size: 14px&quot; color=&quot;#006600&quot;&gt;调用成功&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-7" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;返回成功&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="275" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-10" value="调用失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FF0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-12" target="WW2i123roZljfawLRw-2-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="667.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-12" value="&lt;font color=&quot;#ff8000&quot;&gt;dcron&lt;br&gt;每分钟一次&lt;br&gt;&lt;/font&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.alarm_clock;fontSize=14;fontColor=#FF0000;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="640.5" y="40" width="54" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-13" target="WW2i123roZljfawLRw-2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-13" value="查询status为“审核通过”、sync_status为“同步中”的记录列表。&lt;br&gt;查询使用快照读即可，无需加锁。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="190" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-15" value="调用API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="670.5" y="150" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-16" target="WW2i123roZljfawLRw-2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-16" value="同步调用结算API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="310" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.022;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-18" target="WW2i123roZljfawLRw-2-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="600" />
+              <mxPoint x="860" y="600" />
+              <mxPoint x="860" y="281" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-18" value="&lt;span style=&quot;font-size: 14px&quot;&gt;开启事务&lt;br&gt;&lt;div&gt;&lt;span&gt;更新river_fdc_bill_rule表中ruleId相同、version相同的记录：&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;ul style=&quot;font-size: 14px&quot;&gt;&lt;li&gt;若是新增，需要更新RuleId。&lt;/li&gt;&lt;li&gt;status：审核通过。&lt;/li&gt;&lt;li&gt;sync_status：同步成功。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;提交事务。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="420" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-22" value="循环列表中每一条记录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="667.5" y="270" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-25" value="同步更新" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-30" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-27" value="异步更新" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-30" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-29" value="对账" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="880" y="-30" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="WW2i123roZljfawLRw-2-30" target="WW2i123roZljfawLRw-2-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-30" value="&lt;font color=&quot;#ff8000&quot;&gt;dcron&lt;br&gt;每天结算执行之前一小时&lt;br&gt;&lt;/font&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;shadow=0;dashed=0;shape=mxgraph.ios7.icons.alarm_clock;fontSize=14;fontColor=#FF0000;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="1050.5" y="40" width="54" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WW2i123roZljfawLRw-2-31" value="全量查询结算侧的规则，和当前GMS中的规则做对比。&lt;br&gt;&lt;ul&gt;&lt;li&gt;对于sync_status为“同步成功”的记录，需要对比数据是否一致。&lt;/li&gt;&lt;li&gt;对于sync_status为“准备”或“同步中”的记录，需发送提醒信息。&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;对账结果以邮件和DC形式通知开发人员。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="895" y="190" width="365" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
