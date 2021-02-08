@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T07:32:35.176Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="NpneEpyaSJHcSCsBqtS2" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-08T08:14:31.755Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="SaDnC9vcTOHuJGKuUt-d" version="14.2.9" type="github">
   <diagram id="mXoa0eSgYvrqmYaV__g0" name="Page-1">
     <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,11 +45,11 @@
         <mxCell id="XLO7Y9AQhhBaWEBVcjyQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="XLO7Y9AQhhBaWEBVcjyQ-22" target="XLO7Y9AQhhBaWEBVcjyQ-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XLO7Y9AQhhBaWEBVcjyQ-22" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;更新river_fdc_bill_rule表中记录：&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;status：待审核。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;sync_status：准备。&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="XLO7Y9AQhhBaWEBVcjyQ-22" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;更新river_fdc_bill_rule表中记录：&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;status：待审核/审核未通过。&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;sync_status：准备。&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="450" y="130" width="260" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="XLO7Y9AQhhBaWEBVcjyQ-24" value="撤回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="414" y="370" width="40" height="20" as="geometry" />
+        <mxCell id="XLO7Y9AQhhBaWEBVcjyQ-24" value="撤回/审核未通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="395" y="370" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XLO7Y9AQhhBaWEBVcjyQ-26" value="&lt;font style=&quot;font-size: 14px&quot;&gt;提交审核&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="280" width="70" height="20" as="geometry" />
