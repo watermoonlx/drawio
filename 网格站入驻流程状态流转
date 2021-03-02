@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T06:27:18.817Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="jAYuCgqRjSpiqOnttwDV" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T06:40:02.924Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="HjH95Hy2gwjZU86Qn4d_" version="14.4.3" type="github">
   <diagram id="jr87X7Ac51jIZBm8i9bR" name="Page-1">
     <mxGraphModel dx="786" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
         <mxCell id="lOcnP8iVytzzMt9s8Rji-27" value="销配一体总部综合审核员&lt;br&gt;(161)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="560" y="893" width="176.75" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lOcnP8iVytzzMt9s8Rji-28" value="履约型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="lOcnP8iVytzzMt9s8Rji-28" value="履约型、代理商型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="270" y="120" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lOcnP8iVytzzMt9s8Rji-29" value="销配一体型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
