@@ -1,1 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T14:11:33.519Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.4" etag="TW9N-i1wrEZXq0E5ISyi" type="github"><diagram id="XvHY4YvNgtBbUI5408Ep">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-08T14:22:26.222Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="0Yb6q53CZnJsDN8IZlJy" version="14.4.4" type="github">
+  <diagram id="XvHY4YvNgtBbUI5408Ep" name="Page-1">
+    <mxGraphModel dx="1810" dy="1010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-1" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="105" y="215" width="50" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="8VVtQtO4-_y2LdBGJ6qz-2" target="8VVtQtO4-_y2LdBGJ6qz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-2" value="DC仓" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="8VVtQtO4-_y2LdBGJ6qz-3" target="8VVtQtO4-_y2LdBGJ6qz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-3" value="网格站" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="308.5" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-4" value="" style="triangle;whiteSpace=wrap;html=1;fontSize=16;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="417.5" y="256" width="35" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.truck_shipment;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-16" value="团长" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="308.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.lean_mapping.truck_shipment;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-19" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69" y="440" as="sourcePoint" />
+            <mxPoint x="69" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-20" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="189" y="440" as="sourcePoint" />
+            <mxPoint x="189" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-21" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="440" as="sourcePoint" />
+            <mxPoint x="390" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-22" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="440" as="sourcePoint" />
+            <mxPoint x="480" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-23" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="440" as="sourcePoint" />
+            <mxPoint x="660" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-24" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="415" as="sourcePoint" />
+            <mxPoint x="190" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-29" value="&lt;font style=&quot;font-size: 12px&quot;&gt;DC运营成本&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="8VVtQtO4-_y2LdBGJ6qz-24">
+          <mxGeometry x="-0.0333" y="-1" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-26" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="415" as="sourcePoint" />
+            <mxPoint x="390" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-30" value="&lt;font style=&quot;font-size: 12px&quot;&gt;支线配送成本&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="8VVtQtO4-_y2LdBGJ6qz-26">
+          <mxGeometry x="0.08" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-27" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="415" as="sourcePoint" />
+            <mxPoint x="480" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-31" value="&lt;font style=&quot;font-size: 12px&quot;&gt;网格运营成本&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="8VVtQtO4-_y2LdBGJ6qz-27">
+          <mxGeometry x="-0.1778" y="-2" relative="1" as="geometry">
+            <mxPoint x="8" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-28" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="415" as="sourcePoint" />
+            <mxPoint x="660" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8VVtQtO4-_y2LdBGJ6qz-32" value="&lt;font style=&quot;font-size: 12px&quot;&gt;站团配送成本&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="8VVtQtO4-_y2LdBGJ6qz-28">
+          <mxGeometry x="-0.0222" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
